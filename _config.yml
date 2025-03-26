@@ -1,7 +1,7 @@
 # Site settings
-title: "Titolo sito"
-description: "Descrizione sito"
-url: "https://ai-sf.it/url"
+title: "INSIGHT"
+description: "INternational SCientific Highlights"
+url: "https://ai-sf.it/insight"
 destination: ../site/
 locale: "it"
 
