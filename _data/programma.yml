@@ -1,0 +1,54 @@
+schedule:
+  - day: 26/04
+    date: "260425"
+    day_ex: Sabato 26 Aprile
+    short_descr:
+    activity:
+      - hour: "14:00 - 14:15"
+        where:
+        who: "Saluti e introduzione"
+        descr: ""
+        tag: "conf"
+        id:
+      - hour: "14:15 - 14:45"
+        where: "Max-Planck Munich"
+        who: "Speaker 1"
+        descr: "Fisica Teorica"
+        tag: "conf"
+        id:
+      - hour: "14:45 - 15:15"
+        where: "Max-Planck Munich"
+        who: "Speaker 2"
+        descr: "Astrofisica"
+        tag: "conf"
+        id:
+      - hour: "15:15 - 15:45"
+        where: "NASA/Harvard"
+        who: "Speaker 3"
+        descr: "Fisica Solare"
+        tag: "conf"
+        id:
+      - hour: "15:45 - 16:00"
+        where: 
+        who: "Break Interattivo"
+        descr: 
+        tag: "conf"
+        id:
+      - hour: "16:00 - 16:30"
+        where: "UIB - Universitat de les Illes Balears"
+        who: "Speaker 4"
+        descr: "Fisica dei Sistemi Complessi"
+        tag: "conf"
+        id:
+      - hour: "16:30 - 17:00"
+        where: "CERN"
+        who: "Speaker 5"
+        descr: "Fisica delle Particelle"
+        tag: "conf"
+        id:
+      - hour: "17:00 - 17:30"
+        where: 
+        who: "Speaker 6"
+        descr: "Biofisica"
+        tag: "conf"
+        id:

@@ -1,5 +1,8 @@
-
+- text: "Programma"
+  url: "programma"
+- text: "Speaker"
+  url: "speaker"
 - text: "AISF"
-  url: https://www.ai-sf.it
+  url: http://www.ai-sf.it
 - icon: "share"
-  url: "https://www.google.com"
+  url: "contatti"
