@@ -1,12 +1,40 @@
 description:
 
 content:
-  - nome: "Coming Soon !"
-    id: speaker1
-    uni: "Coming Soon"
-    img: ""
-    title: "Coming Soon !"
-    bio: ""
-    abstract: "Coming Soon !"
+
+  - nome: "Alessio Berti"
+    id: alessioberti
+    img: "alessioberti.webp"
+    uni: "Max Planck Institute for Physics, Monaco di Baviera"
+    bio: "Dopo aver conseguito il Dottorato in Fisica presso l’Università di Trieste nel 2018, ha proseguito la sua attività di ricerca come assegnista presso l’Università di Torino e l’Istituto Nazionale di Fisica Nucleare, sezione di Torino, dove ha lavorato fino al 2021.
+      Attualmente è ricercatore postdoc presso il Max Planck Institute for Physics di Monaco di Baviera, dove continua a portare avanti la sua attività scientifica in ambito internazionale."
+    link:
+    slides:
+
+  - nome: "Gabriele Cozzo"
+    id: gabrielecozzo
+    img: "gabrielecozzo.webp"
+    uni: "Centre for Astrophysics, Harvard & Smithsonian"
+    bio: " Ha conseguito il Dottorato in Fisica presso l’Università degli Studi di Palermo nel 2024.
+      Da dicembre dello stesso anno lavora come ricercatore postdoc presso il Centre for Astrophysics | Harvard & Smithsonian, dove si occupa di ricerca avanzata in ambito astrofisico all’interno di un contesto internazionale di eccellenza."
+    link:
+    slides:
+  
+  - nome: "Davide Giordano"
+    id: davidegiordano
+    img: "davidegiordano.webp"
+    uni: "CERN, Ginevra"
+    bio: "Ha conseguito il Dottorato in Fisica presso l’Università di Torino nel 2023.
+      Attualmente è assegnista di ricerca presso la sezione di Torino dell’Istituto Nazionale di Fisica Nucleare (INFN).
+      È attivamente coinvolto in importanti collaborazioni internazionali come COMPASS e AMBER al CERN, ed ePIC al Brookhaven National Laboratory, ricoprendo ruoli di coordinamento sia tecnico che scientifico all’interno dei progetti."
+    link:
+    slides:
+
+  - nome: "Pietro Castronovo"
+    id: pietrocastronovo
+    img: "pietrocastronovo.webp"
+    uni: "ATeN Center, Palermo"
+    bio: "Ha conseguito la laurea magistrale in Fisica presso l’Università di Palermo nel 2022 e, nello stesso anno, ha iniziato un Dottorato di Ricerca in Scienze Fisiche e Chimiche presso lo stesso ateneo, attualmente in corso.
+      Nel corso del dottorato ha svolto attività di ricerca all’estero come Visiting Researcher, prima nel 2023 presso il van der Waals - Zeeman Institute dell’Institute of Physics dell’Università di Amsterdam, e successivamente, nel 2024, presso il Laboratoire Hubert Curien dell’Université Jean Monnet a Saint-Étienne."
     link:
     slides:

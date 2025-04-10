@@ -1,54 +1,56 @@
 ---
 layout: page
-title: Speaker invitati
+title: Speakers
 ---
-
 
 <p>
 	{{ site.data.speaker.description }}
 </p>
 
-<ul class="collection id=speakerinvitati">
+<ul class="collection" id="speakerinvitati">
 	{% for item in site.data.speaker.content %}
-	<li class="collection-item avatar" id="{{ item.id }}">
-		{% if item.img != nil %}
-		<img src="{{ site.url }}/img/speaker/{{ item.img }}" alt="" class="circle" style="object-fit: cover">
-		{% endif %}
-		{% if item.group != nil %}
-		{% for foto in item.group %}
-		<img src="{{ site.url }}/{{ foto.foto }}" alt="" style="width:8%">
-		{% endfor %}
-		<br />
-		{% endif %}
-		{% if item.img == nil %}
-		{% if item.group == nil %}
-		<img src="{{ site.url }}/img/speaker/default.png" alt="" class="circle">
-		{% endif %}
-		{% endif %}
-		<span class="title">
-			<b>{{ item.nome }}</b>
-		</span>
-		<br />
-		<span>
-			<i>{{ item.uni }}</i>
-		</span>
-		<br /><br />
-		{% if item.bio != nihil %}
-		<p class="paragraph" style="text-align:justify">
-			{{ item.bio }}
-		</p>
-		{% endif %}
-		<br />
-		{% if item.title != nil %}
-		<p class="paragraph" style="color:{{site.data.generic.color1}}"><b>{{item.title}}</b></p>
-		<p class="paragraph" style="text-align:justify">{{ item.abstract }}</p>
-		{% endif %}
+	<li class="collection-item" id="{{ item.id }}">
+		<div class="row valign-wrapper" style="flex-wrap: wrap; margin-bottom: 0;">
 
-		{% if item.slides != nil %}
-		<br />
-		<p class="paragraph"><a href="{{site.url}}/files/Slides/{{item.slides}}" target="_blank" class="blue-text"> <i
-					class="fa fa-download" aria-hidden="true"></i> Scarica</a> le slides dell'intervento<br><br></p>
+			<!-- Immagine speaker -->
+			<div class="col s12 m2 center-align" style="margin-bottom: 1em;">
+				{% if item.img %}
+				<img src="{{ site.url }}/img/speaker/{{ item.img }}" alt="" class="circle responsive-img"
+					style="object-fit: cover; max-width: 200px; width: 100%;">
+				{% elsif item.group %}
+				{% for foto in item.group %}
+				<img src="{{ site.url }}/{{ foto.foto }}" alt="" style="width: 20%; max-width: 60px;">
+				{% endfor %}
+				{% else %}
+				<img src="{{ site.url }}/img/speaker/default.png" alt="" class="circle responsive-img"
+					style="object-fit: cover; max-width: 200px; width: 100%;">
+				{% endif %}
+			</div>
+
+			<!-- Testo speaker -->
+			<div class="col s12 m10">
+				<span class="title"><b>{{ item.nome }}</b></span><br />
+				<span><i>{{ item.uni }}</i></span><br /><br />
+
+				{% if item.bio %}
+				<p class="paragraph" style="text-align: justify;">{{ item.bio }}</p>
+				{% endif %}
+
+				{% if item.title %}
+				<p class="paragraph" style="color: {{ site.data.generic.color1 }};"><b>{{ item.title }}</b></p>
+				<p class="paragraph" style="text-align: justify;">{{ item.abstract }}</p>
+				{% endif %}
+
+				{% if item.slides %}
+				<p class="paragraph">
+					<a href="{{ site.url }}/files/Slides/{{ item.slides }}" target="_blank" class="blue-text">
+						<i class="fa fa-download" aria-hidden="true"></i> Scarica
+					</a> le slides dell'intervento
+				</p>
+				{% endif %}
+			</div>
+
+		</div>
 	</li>
-	{% endif %}
 	{% endfor %}
 </ul>

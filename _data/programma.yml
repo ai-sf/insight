@@ -2,53 +2,51 @@ schedule:
   - day: 26/04
     date: "260425"
     day_ex: Sabato 26 Aprile
-    short_descr:
+    short_title:
     activity:
       - hour: "14:00 - 14:15"
         where:
         who: "Saluti e introduzione"
-        descr: ""
+        title: ""
         tag: "conf"
         id:
       - hour: "14:15 - 14:45"
-        where: "Max-Planck Munich"
-        who: "Speaker 1"
-        descr: "Fisica Teorica"
+        where: "Max Planck Institute for Physics, Munich"
+        who: "Alessio Berti"
+        title: "Lampi di luce gamma e telescopi Cherenkov: sfide e prospettive future"
+        abstract: "Il talk riguarda la ricerca di raggi gamma ad altissime energie generati dai lampi di luce gamma (GRB), sorgenti transienti di grande interesse. Verrà discusso lo stato attuale della ricerca, i risultati raggiunti e le sfide future in questo campo delle astroparticelle."
         tag: "conf"
-        id:
+        id: alessioberti
       - hour: "14:45 - 15:15"
-        where: "Max-Planck Munich"
-        who: "Speaker 2"
-        descr: "Astrofisica"
+        where: "Centre for Astrophysics, Harvard & Smithsonian"
+        who: "Gabriele Cozzo"
+        title: "Nanobrillamenti e riconnessione magnetica: riscaldamento della corona solare"
+        abstract: "I nanobrillamenti, piccoli eventi di rilascio energetico, potrebbero spiegare il riscaldamento della corona solare tramite riconnessione magnetica. Il talk esplorerà il ruolo delle simulazioni numeriche e delle osservazioni ad altissima risoluzione per validare questa teoria, mostrando lo stato dell’arte della fisica solare."
+        tag: "conf"
+        id: gabrielecozzo
+      - hour: "15:15 - 15:30"
+        where: ""
+        who: "Break"
+        title: ""
         tag: "conf"
         id:
-      - hour: "15:15 - 15:45"
-        where: "NASA/Harvard"
-        who: "Speaker 3"
-        descr: "Fisica Solare"
+      - hour: "15:30 - 16:00"
+        where: "CERN, Genève"
+        who: "Davide Giordano"
+        title: "Misura di produzione di antiprotoni con l’esperimento AMBER per la ricerca indiretta di materia oscura"
+        abstract: "L’esperimento AMBER al CERN studia la produzione di antiprotoni in collisioni protone-bersaglio per affinare i modelli di propagazione dei raggi cosmici. L'obiettivo è migliorare le previsioni sui flussi di antimateria, riducendo le incertezze e contribuendo alla ricerca indiretta di segnali di materia oscura attraverso i canali di antimateria."
         tag: "conf"
-        id:
-      - hour: "15:45 - 16:00"
-        where: 
-        who: "Break Interattivo"
-        descr: 
-        tag: "conf"
-        id:
+        id: davidegiordano
       - hour: "16:00 - 16:30"
-        where: "UIB - Universitat de les Illes Balears"
-        who: "Speaker 4"
-        descr: "Fisica dei Sistemi Complessi"
+        where: "ATeN Center, Palermo"
+        who: "Pietro Castronovo"
+        title: "Nanocristalli come LEGO: proprietà emergenti di superstrutture mesoscopiche auto-assemblate"
+        abstract: "Le superstrutture mesoscopiche costituite da quantum dots mostrano proprietà emergenti non riconducibili a quelle dei singoli nanocristalli. Con tecniche spettroscopiche avanzate si può analizzare la loro risposta ottica a vari livelli temporali, rivelando nuova fisica fondamentale e possibili applicazioni in fotonica e optoelettronica."
         tag: "conf"
-        id:
+        id: pietrocastronovo
       - hour: "16:30 - 17:00"
-        where: "CERN"
-        who: "Speaker 5"
-        descr: "Fisica delle Particelle"
-        tag: "conf"
-        id:
-      - hour: "17:00 - 17:30"
-        where: 
-        who: "Speaker 6"
-        descr: "Biofisica"
+        where: ""
+        who: "Chiusura"
+        title: ""
         tag: "conf"
         id:

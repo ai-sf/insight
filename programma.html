@@ -5,39 +5,63 @@ title: Programma
 
 <div class="row">
   {% for item in site.data.programma.schedule %}
-  <div id="{{item.date}}" class="col s12">
+  <div id="{{ item.date }}" class="col s12">
     <br>
     <h5>{{ item.day_ex }}</h5>
     <h5><b>{{ item.short_descr }}</b></h5>
-    <table>
-      <thread>
-        <tr>
-          <th data-field="time">Orario</th>
-          <th data-field="who"></th>
-          <th data-field="what" style="text-align:center; width:45%"></th>
-        </tr>
-      </thread>
-      <tbody>
-        {% for act in item.activity %}
-        {% assign bg = "rgba(0,0,0,0)"%}
-        {% assign fg = "black" %}
-        <td style="background-color:{{bg}}">{{ act.hour }}</td>
-        <td style="background-color:{{bg}}">
-          {% if act.id %}<a href="{{site.url}}/{{act.id}}" target='_blank'>{% endif %}
+
+    <ul class="collapsible popout">
+      {% for act in item.activity %}
+      {% if act.abstract %}
+      <!-- COLLAPSIBLE ITEM -->
+      <li>
+        <div class="collapsible-header" style="display: flex; align-items: center;">
+          <div class="col s3">{{ act.hour }}</div>
+          <div class="col s3">
+            {% if act.id %}
+            <a href="{{ site.url }}/speaker#{{ act.id }}"><b>{{ act.who }}</b></a>
+            {% else %}
             <b>{{ act.who }}</b>
-            {% if act.id %}</a>{% endif %}
-        </td>
-        <td style="background-color:{{bg}}; color:{{tc}}; text-align:center">{{ act.descr }}</td>
-        {% if act.id != nil %}
-        {% else %}
-        <td style="background-color:{{bg}}"></td>
-        {% endif %}
-        </tr>
-        {% endfor %}
-      </tbody>
-    </table>
+            {% endif %}
+          </div>
+          <div class="col s5 left-align">{{ act.title }}</div>
+          <div class="col s1 right-align">
+            <i class="material-icons">expand_more</i>
+          </div>
+        </div>
+        <div class="collapsible-body">
+          <p><b>Abstract:</b> {{ act.abstract }}</p>
+          {% if act.where %}<p><b>Centro di ricerca di riferimento:</b> {{ act.where }}</p>{% endif %}
+        </div>
+      </li>
+      {% else %}
+      <!-- STATIC ITEM -->
+      <li style="list-style: none;">
+        <div class="collapsible-header" style="display: flex; align-items: center; cursor: default;">
+          <div class="col s3">{{ act.hour }}</div>
+          <div class="col s5">
+            {% if act.id %}
+            <a href="{{ site.url }}/{{ act.id }}" target="_blank"><b>{{ act.who }}</b></a>
+            {% else %}
+            <b>{{ act.who }}</b>
+            {% endif %}
+          </div>
+          <div class="col s3 left-align">{{ act.title }}</div>
+          <div class="col s1 right-align">
+          </div>
+        </div>
+      </li>
+      {% endif %}
+      {% endfor %}
+    </ul>
   </div>
-
   {% endfor %}
-
 </div>
+
+<!-- Script di inizializzazione Materialize -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const elems = document.querySelectorAll('.collapsible');
+    M.Collapsible.init(elems, { accordion: false });
+  });
+</script>
