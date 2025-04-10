@@ -7,12 +7,36 @@ content:
   - nome: "Federico Canterucci"
     id: federicocanterucci
     img: "federicocanterucci.webp"
-    uni: "Max ..."
-    bio: "Dopo ..."
+    bio: |
+      Responsabile Eventi dell’Associazione Italiana Studenti di Fisica (AISF), coordina i Comitati
+      Organizzatori degli eventi nazionali e internazionali dell’associazione, promuovendo la formazione,
+      la divulgazione e il dialogo tra studenti e mondo della ricerca.
+      <br>
+      È stato presidente del Comitato Locale di AISF Torino per due anni, guidando l’organizzazione di conferenze, workshop e attività
+      di outreach rivolte sia alla comunità accademica sia al pubblico. È stato inoltre coordinatore
+      generale dell’ottava edizione della Conferenza Italiana Studenti di Fisica (CISF24), che ha riunito
+      studenti da tutta Italia per cinque giorni di conferenze e confronto scientifico.
+      <br>
+      Insieme a Giorgia Cantore ha ideato e sta curando INSIGHT, un evento online trasmesso in diretta dai principali
+      centri di ricerca internazionali, che porta le voci di postdoc e ricercatori direttamente agli studenti.
+      Studente magistrale in Fisica Nucleare e Subnucleare all’Università di Torino, coniuga empatia e
+      competenza tecnica nella sua attività educativa. Crede profondamente nella comunicazione
+      scientifica come strumento per rendere la scienza accessibile e inclusiva.
   
   - nome: "Giorgia Stefania Cantore"
     id: giorgiacantore
-    img: "giorgicantore.webp"
-    uni: "AT ..."
-    bio: "Ha cons.."
+    img: "giorgiacantore.webp"
+    bio: |
+      Attualmente Responsabile dei Comitati Locali e Membri dell’Associazione Italiana Studenti di
+      Fisica per l’anno 2025. Nel 2023-2024 ha ricoperto il ruolo di Vicepresidente del Comitato Locale
+      di Bari, contribuendo all’organizzazione di numerosi eventi, tra cui l’edizione internazionale del
+      German Italian Physics Exchange (GIPE).
+      <br>
+      Ha partecipato attivamente a tre edizioni della Conferenza Italiana Studenti di Fisica (2023, 2024, 2025)
+      e moderato l’incontro “Fisica e Neuroscienze” con il prof. Sebastiano Stramaglia presso il Dipartimento
+      di Fisica dell’Università degli Studi di Bari.
+      <br>
+      Con una consolidata esperienza nella comunicazione scientifica e nella promozione del dialogo
+      tra studenti e mondo della ricerca, guiderà la discussione con i quattro relatori provenienti da
+      diversi ambiti della fisica.
   
