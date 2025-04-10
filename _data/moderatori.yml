@@ -1,0 +1,18 @@
+description: |
+  La <b>moderazione</b> dell’evento, insieme alla <b>regia tecnica</b>, garantirà un’interazione unica con il pubblico: potrai fare <b>domande in diretta</b> agli speaker, grazie a una gestione fluida dei commenti e delle domande in tempo reale.
+  <br>
+  I moderatori guideranno l’evento in modo dinamico e stimolante, creando uno spazio di dialogo che arricchirà la tua esperienza e ti permetterà di sentirti parte della conversazione.
+
+content:
+  - nome: "Federico Canterucci"
+    id: federicocanterucci
+    img: "federicocanterucci.webp"
+    uni: "Max ..."
+    bio: "Dopo ..."
+  
+  - nome: "Giorgia Stefania Cantore"
+    id: giorgiacantore
+    img: "giorgicantore.webp"
+    uni: "AT ..."
+    bio: "Ha cons.."
+  

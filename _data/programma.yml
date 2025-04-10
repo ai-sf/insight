@@ -1,3 +1,8 @@
+description: |
+  Delle sfide della ricerca, delle domande che muovono gli esperimenti più avanzati e del percorso che ha portato questi giovani scienziati dove sono oggi.
+  <br>
+  Un’occasione unica per <b>guardare da vicino</b> ciò che accade davvero nei laboratori dove si costruisce il futuro.
+
 schedule:
   - day: 26/04
     date: "260425"
@@ -5,7 +10,7 @@ schedule:
     short_title:
     activity:
       - hour: "14:00 - 14:15"
-        where:
+        where: ""
         who: "Saluti e introduzione"
         title: ""
         tag: "conf"
@@ -14,14 +19,22 @@ schedule:
         where: "Max Planck Institute for Physics, Munich"
         who: "Alessio Berti"
         title: "Lampi di luce gamma e telescopi Cherenkov: sfide e prospettive future"
-        abstract: "Il talk riguarda la ricerca di raggi gamma ad altissime energie generati dai lampi di luce gamma (GRB), sorgenti transienti di grande interesse. Verrà discusso lo stato attuale della ricerca, i risultati raggiunti e le sfide future in questo campo delle astroparticelle."
+        abstract: |
+          Nel mio contributo presenterò il mio lavoro di ricerca che si sviluppa nel campo delle Astroparticelle: l’astrofisica gamma delle altissime energie.
+          <br>
+          In particolare descriverò la ricerca di emissione di raggi gamma alle altissime energie prodotti dai lampi di luce gamma, una classe di sorgenti cosiddette “transienti”. Oltre ad esporre l’attuale stato dell’arte con i risultati più significativi, mi soffermerò sulle sfide da affrontare per poter avanzare in tale ricerca, e sulle prospettive future.
         tag: "conf"
         id: alessioberti
       - hour: "14:45 - 15:15"
         where: "Centre for Astrophysics, Harvard & Smithsonian"
         who: "Gabriele Cozzo"
         title: "Nanobrillamenti e riconnessione magnetica: riscaldamento della corona solare"
-        abstract: "I nanobrillamenti, piccoli eventi di rilascio energetico, potrebbero spiegare il riscaldamento della corona solare tramite riconnessione magnetica. Il talk esplorerà il ruolo delle simulazioni numeriche e delle osservazioni ad altissima risoluzione per validare questa teoria, mostrando lo stato dell’arte della fisica solare."
+        abstract: |
+          Il mio contributo riguarda i processi di riscaldamento della corona solare attraverso il meccanismo della riconnessione magnetica. È ormai assodato che eventi energetici e violenti come i brillamenti solari e le eruzioni di massa coronale siano guidati dalla riconnessione magnetica. Si ritiene che gli stessi meccanismi consentano, al contempo, la conversione di energia magnetica in calore, a cascata, dalle grandi fino alle piccole scale, determinando il riscaldamento continuo dell’intera corona solare.
+          <br>
+          In particolare, numerosi, elementari ed impulsivi rilasci di energia detti “nanobrillamenti” potrebbero pervadere l’intera corona, sebbene traccia osservativa di tale fenomeno sia ancora difficile da ottenere. Per affrontale tale problema sono fondamentali, da una parte, lo sviluppo di simulazioni numeriche che riproducano la complessità dell’atmosfera solare e dall’altra l’osservazione della corona ad altissima risoluzione spettrale, spaziale e temporale.
+          <br>
+          Durante la presentazione mostrerò come lo stato dell’arte della fisica solare stia evolvendo per raggiungere tali obiettivi.
         tag: "conf"
         id: gabrielecozzo
       - hour: "15:15 - 15:30"
@@ -34,14 +47,24 @@ schedule:
         where: "CERN, Genève"
         who: "Davide Giordano"
         title: "Misura di produzione di antiprotoni con l’esperimento AMBER per la ricerca indiretta di materia oscura"
-        abstract: "L’esperimento AMBER al CERN studia la produzione di antiprotoni in collisioni protone-bersaglio per affinare i modelli di propagazione dei raggi cosmici. L'obiettivo è migliorare le previsioni sui flussi di antimateria, riducendo le incertezze e contribuendo alla ricerca indiretta di segnali di materia oscura attraverso i canali di antimateria."
+        abstract: |
+          L'esperimento AMBER (Apparatus for Meson and Baryon Experimental Research) al CERN si propone di affrontare questioni fondamentali nella fisica adronica, tra cui la produzione di antimateria nei raggi cosmici. Un obiettivo chiave è la misura delle sezioni d'urto differenziali per la produzione di antiprotoni nelle collisioni di protoni con bersagli di interesse astrofisico. Questi dati sono cruciali per affinare i modelli di propagazione dei raggi cosmici e migliorare le previsioni dei flussi di antimateria nei rilevatori spaziali, come AMS-02 e il futuro esperimento GAPS.
+          <br>
+          Nonostante i recenti progressi nella misurazione dei flussi di antiprotoni cosmici, permangono significative incertezze nelle sezioni d'urto di produzione di antiprotoni, specialmente alle alte energie. La violazione dello scaling di Feynman, l’asimmetria di produzione indotta da effetti di isospin iniziali e le incertezze sulla produzione di iperoni strani complicano le previsioni teoriche.
+          <br>
+          Inoltre, la mancanza di dati sperimentali dettagliati sulle collisioni protone-nucleo limita la nostra comprensione delle principali fonti di produzione di antiprotoni. Queste lacune ostacolano l'interpretazione dei dati dei raggi cosmici e la ricerca di segnali di nuova fisica nei canali di antimateria, come la materia oscura.
+          <br>
+          Durante le campagne di presa dati nel 2023 e 2024, AMBER ha raccolto dati su collisioni tra fasci di protoni con bersagli di idrogeno, deuterio, e elio per esplorare le dipendenze in funzione dell’energia e del numero atomico del bersaglio. Grazie alla risoluzione dell’apparato sperimentale e alla possibilità di coprire un ampio intervallo cinematico, AMBER fornirà dati con alta precisione sulla produzione di antimateria adronica. Questi risultati miglioreranno significativamente le predizioni sui raggi cosmici e rafforzeranno la sinergia tra esperimenti di fisica delle particelle e ricerche astrofisiche.
         tag: "conf"
         id: davidegiordano
       - hour: "16:00 - 16:30"
         where: "ATeN Center, Palermo"
         who: "Pietro Castronovo"
         title: "Nanocristalli come LEGO: proprietà emergenti di superstrutture mesoscopiche auto-assemblate"
-        abstract: "Le superstrutture mesoscopiche costituite da quantum dots mostrano proprietà emergenti non riconducibili a quelle dei singoli nanocristalli. Con tecniche spettroscopiche avanzate si può analizzare la loro risposta ottica a vari livelli temporali, rivelando nuova fisica fondamentale e possibili applicazioni in fotonica e optoelettronica."
+        abstract: |
+          In natura, le molecole e i solidi presentano proprietà fisico-chimiche che non possono essere banalmente descritte come “somma” delle proprietà dei singoli atomi che li compongono. Analogamente, assemblare nanocristalli in superstrutture mesoscopiche conferisce a queste ultime proprietà “emergenti” che travalicano quelle degli “atomi artificiali” di partenza.
+          <br>
+          Durante il mio intervento discuterò le proprietà fotofisiche e fotoniche di superstrutture assemblate a partire da quantum dots di semiconduttori. Mostrerò come tecniche spettroscopiche avanzate consentano di esplorare la risposta ottica di tali superstrutture a vari livelli di risoluzione temporale, e come ciò dia preziose informazioni sulla fisica di base di questi affascinanti sistemi, aprendo la strada a un vasto numero di applicazioni.
         tag: "conf"
         id: pietrocastronovo
       - hour: "16:30 - 17:00"

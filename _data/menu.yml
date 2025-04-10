@@ -2,6 +2,8 @@
   url: "programma"
 - text: "Speaker"
   url: "speaker"
+- text: "Moderatori"
+  url: "moderatori"
 - text: "AISF"
   url: http://www.ai-sf.it
 - icon: "share"

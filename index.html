@@ -6,6 +6,17 @@ script: home.js
 {% include banner.html %}
 
 <div class="no-pad-top" id="index-page">
+
+  <!-- paragraph -->
+  <div class="section">
+    <div class="row">
+      <div class="col s8 offset-s2">
+          <p class="center light">{{ site.data.home.paragraph }}</p>
+      </div>
+    </div>
+  </div>
+
+
   <div class="container">
     <!--   Icon Section   -->
     <div class="section">
@@ -50,7 +61,8 @@ script: home.js
           <div class="col s8 offset-s2">
             <div class="icon-block">
               <h3 class="center"><i class="medium material-icons custom1-text">send</i></h3>
-              <p class="center light">{{ site.data.home.paragraph }}</p>
+              <h3 class="center">Come partecipare?</h2>
+              <p class="center light">{{ site.data.home.paragraph_under }}</p>
             </div>
           </div>
         </div>
