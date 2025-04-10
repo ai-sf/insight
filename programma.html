@@ -5,7 +5,7 @@ title: Programma
 
 <div class="row">
   {% for item in site.data.programma.schedule %}
-  <div id="{{ item.date }}" class="col s12">
+  <div id="{{ item.date }}" class="col s12 m12">
     <br>
     <h5>{{ item.day_ex }}</h5>
     <h5><b>{{ item.short_descr }}</b></h5>
@@ -15,17 +15,20 @@ title: Programma
       {% if act.abstract %}
       <!-- COLLAPSIBLE ITEM -->
       <li>
-        <div class="collapsible-header" style="display: flex; align-items: center;">
-          <div class="col s3">{{ act.hour }}</div>
-          <div class="col s3">
+        <div class="collapsible-header" style="display: flex; align-items: center; flex-wrap: wrap;">
+          <div class="col s4 m3">{{ act.hour }}</div>
+          <div class="col s8 m3">
             {% if act.id %}
             <a href="{{ site.url }}/speaker#{{ act.id }}"><b>{{ act.who }}</b></a>
             {% else %}
             <b>{{ act.who }}</b>
             {% endif %}
           </div>
-          <div class="col s5 left-align">{{ act.title }}</div>
-          <div class="col s1 right-align">
+          <!-- Title goes under the "who" on small screens -->
+          <!-- Add a space only on small screen to separate the title more -->
+          <div class="col s12 hide-on-med-and-up" style="margin-top: 0.5em;"></div>
+          <div class="col s10 m5 left-align">{{ act.title }}</div>
+          <div class="col s2 m1 right-align">
             <i class="material-icons">expand_more</i>
           </div>
         </div>
@@ -37,18 +40,20 @@ title: Programma
       {% else %}
       <!-- STATIC ITEM -->
       <li style="list-style: none;">
-        <div class="collapsible-header" style="display: flex; align-items: center; cursor: default;">
-          <div class="col s3">{{ act.hour }}</div>
-          <div class="col s5">
+        <div class="collapsible-header" style="display: flex; align-items: center; flex-wrap: wrap; cursor: default;">
+          <div class="col s4 m3">{{ act.hour }}</div>
+          <div class="col s8 m3">
             {% if act.id %}
             <a href="{{ site.url }}/{{ act.id }}" target="_blank"><b>{{ act.who }}</b></a>
             {% else %}
             <b>{{ act.who }}</b>
             {% endif %}
           </div>
-          <div class="col s3 left-align">{{ act.title }}</div>
-          <div class="col s1 right-align">
-          </div>
+        <!-- Title goes under the "who" on small screens -->
+        <!-- Add a space only on small screen to separate the title more -->
+        <div class="col s12 hide-on-med-and-up" style="margin-top: 0.5em;"></div>
+        <div class="col s10 m5 left-align">{{ act.title }}</div>
+        <div class="col s2 m1 right-align" />
         </div>
       </li>
       {% endif %}
