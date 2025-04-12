@@ -26,17 +26,15 @@ schedule:
         tag: "conf"
         id: alessioberti
       - hour: "14:45 - 15:15"
-        where: "Centre for Astrophysics, Harvard & Smithsonian"
-        who: "Gabriele Cozzo"
-        title: "Nanobrillamenti e riconnessione magnetica: riscaldamento della corona solare"
+        where: "ATeN Center, Palermo"
+        who: "Pietro Castronovo"
+        title: "Nanocristalli come LEGO: proprietà emergenti di superstrutture mesoscopiche auto-assemblate"
         abstract: |
-          Il mio contributo riguarda i processi di riscaldamento della corona solare attraverso il meccanismo della riconnessione magnetica. È ormai assodato che eventi energetici e violenti come i brillamenti solari e le eruzioni di massa coronale siano guidati dalla riconnessione magnetica. Si ritiene che gli stessi meccanismi consentano, al contempo, la conversione di energia magnetica in calore, a cascata, dalle grandi fino alle piccole scale, determinando il riscaldamento continuo dell’intera corona solare.
+          In natura, le molecole e i solidi presentano proprietà fisico-chimiche che non possono essere banalmente descritte come “somma” delle proprietà dei singoli atomi che li compongono. Analogamente, assemblare nanocristalli in superstrutture mesoscopiche conferisce a queste ultime proprietà “emergenti” che travalicano quelle degli “atomi artificiali” di partenza.
           <br>
-          In particolare, numerosi, elementari ed impulsivi rilasci di energia detti “nanobrillamenti” potrebbero pervadere l’intera corona, sebbene traccia osservativa di tale fenomeno sia ancora difficile da ottenere. Per affrontale tale problema sono fondamentali, da una parte, lo sviluppo di simulazioni numeriche che riproducano la complessità dell’atmosfera solare e dall’altra l’osservazione della corona ad altissima risoluzione spettrale, spaziale e temporale.
-          <br>
-          Durante la presentazione mostrerò come lo stato dell’arte della fisica solare stia evolvendo per raggiungere tali obiettivi.
+          Durante il mio intervento discuterò le proprietà fotofisiche e fotoniche di superstrutture assemblate a partire da quantum dots di semiconduttori. Mostrerò come tecniche spettroscopiche avanzate consentano di esplorare la risposta ottica di tali superstrutture a vari livelli di risoluzione temporale, e come ciò dia preziose informazioni sulla fisica di base di questi affascinanti sistemi, aprendo la strada a un vasto numero di applicazioni.
         tag: "conf"
-        id: gabrielecozzo
+        id: pietrocastronovo
       - hour: "15:15 - 15:30"
         where: ""
         who: "Break"
@@ -58,15 +56,28 @@ schedule:
         tag: "conf"
         id: davidegiordano
       - hour: "16:00 - 16:30"
-        where: "ATeN Center, Palermo"
-        who: "Pietro Castronovo"
-        title: "Nanocristalli come LEGO: proprietà emergenti di superstrutture mesoscopiche auto-assemblate"
+
+        where: "Centre for Astrophysics, Harvard & Smithsonian"
+
+        who: "Gabriele Cozzo"
+
+        title: "Nanobrillamenti e riconnessione magnetica: riscaldamento della corona solare"
+
         abstract: |
-          In natura, le molecole e i solidi presentano proprietà fisico-chimiche che non possono essere banalmente descritte come “somma” delle proprietà dei singoli atomi che li compongono. Analogamente, assemblare nanocristalli in superstrutture mesoscopiche conferisce a queste ultime proprietà “emergenti” che travalicano quelle degli “atomi artificiali” di partenza.
+
+          Il mio contributo riguarda i processi di riscaldamento della corona solare attraverso il meccanismo della riconnessione magnetica. È ormai assodato che eventi energetici e violenti come i brillamenti solari e le eruzioni di massa coronale siano guidati dalla riconnessione magnetica. Si ritiene che gli stessi meccanismi consentano, al contempo, la conversione di energia magnetica in calore, a cascata, dalle grandi fino alle piccole scale, determinando il riscaldamento continuo dell’intera corona solare.
+
           <br>
-          Durante il mio intervento discuterò le proprietà fotofisiche e fotoniche di superstrutture assemblate a partire da quantum dots di semiconduttori. Mostrerò come tecniche spettroscopiche avanzate consentano di esplorare la risposta ottica di tali superstrutture a vari livelli di risoluzione temporale, e come ciò dia preziose informazioni sulla fisica di base di questi affascinanti sistemi, aprendo la strada a un vasto numero di applicazioni.
+
+          In particolare, numerosi, elementari ed impulsivi rilasci di energia detti “nanobrillamenti” potrebbero pervadere l’intera corona, sebbene traccia osservativa di tale fenomeno sia ancora difficile da ottenere. Per affrontale tale problema sono fondamentali, da una parte, lo sviluppo di simulazioni numeriche che riproducano la complessità dell’atmosfera solare e dall’altra l’osservazione della corona ad altissima risoluzione spettrale, spaziale e temporale.
+
+          <br>
+
+          Durante la presentazione mostrerò come lo stato dell’arte della fisica solare stia evolvendo per raggiungere tali obiettivi.
+
         tag: "conf"
-        id: pietrocastronovo
+
+        id: gabrielecozzo
       - hour: "16:30 - 17:00"
         where: ""
         who: "Chiusura"
