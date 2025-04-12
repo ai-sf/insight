@@ -12,12 +12,12 @@ content:
     link:
     slides:
 
-  - nome: "Gabriele Cozzo"
-    id: gabrielecozzo
-    img: "gabrielecozzo.webp"
-    uni: "Centre for Astrophysics, Harvard & Smithsonian"
-    bio: " Ha conseguito il Dottorato in Fisica presso l’Università degli Studi di Palermo nel 2024.
-      Da dicembre dello stesso anno lavora come ricercatore postdoc presso il Centre for Astrophysics | Harvard & Smithsonian, dove si occupa di ricerca avanzata in ambito astrofisico all’interno di un contesto internazionale di eccellenza."
+  - nome: "Pietro Castronovo"
+    id: pietrocastronovo
+    img: "pietrocastronovo.webp"
+    uni: "ATeN Center, Palermo"
+    bio: "Ha conseguito la laurea magistrale in Fisica presso l’Università di Palermo nel 2022 e, nello stesso anno, ha iniziato un Dottorato di Ricerca in Scienze Fisiche e Chimiche presso lo stesso ateneo, attualmente in corso.
+      Nel corso del dottorato ha svolto attività di ricerca all’estero come Visiting Researcher, prima nel 2023 presso il van der Waals - Zeeman Institute dell’Institute of Physics dell’Università di Amsterdam, e successivamente, nel 2024, presso il Laboratoire Hubert Curien dell’Université Jean Monnet a Saint-Étienne."
     link:
     slides:
   
@@ -31,11 +31,12 @@ content:
     link:
     slides:
 
-  - nome: "Pietro Castronovo"
-    id: pietrocastronovo
-    img: "pietrocastronovo.webp"
-    uni: "ATeN Center, Palermo"
-    bio: "Ha conseguito la laurea magistrale in Fisica presso l’Università di Palermo nel 2022 e, nello stesso anno, ha iniziato un Dottorato di Ricerca in Scienze Fisiche e Chimiche presso lo stesso ateneo, attualmente in corso.
-      Nel corso del dottorato ha svolto attività di ricerca all’estero come Visiting Researcher, prima nel 2023 presso il van der Waals - Zeeman Institute dell’Institute of Physics dell’Università di Amsterdam, e successivamente, nel 2024, presso il Laboratoire Hubert Curien dell’Université Jean Monnet a Saint-Étienne."
+  - nome: "Gabriele Cozzo"
+    id: gabrielecozzo
+    img: "gabrielecozzo.webp"
+    uni: "Centre for Astrophysics, Harvard & Smithsonian"
+    bio: " Ha conseguito il Dottorato in Fisica presso l’Università degli Studi di Palermo nel 2024.
+      Da dicembre dello stesso anno lavora come ricercatore postdoc presso il Centre for Astrophysics | Harvard & Smithsonian, dove si occupa di ricerca avanzata in ambito astrofisico all’interno di un contesto internazionale di eccellenza."
     link:
     slides:
+    
