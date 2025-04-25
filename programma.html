@@ -4,7 +4,7 @@ title: Di cosa parleremo?
 ---
 
 <p>
-  {{ site.data.programma.description }}
+  {{ site.data.programma.description | replace: '__SITE_URL__', site.url }}
 </p>
 
 <div class="row">

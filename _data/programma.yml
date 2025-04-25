@@ -2,6 +2,8 @@ description: |
   Delle sfide della ricerca, delle domande che muovono gli esperimenti più avanzati e del percorso che ha portato questi giovani scienziati dove sono oggi.
   <br>
   Un’occasione unica per <b>guardare da vicino</b> ciò che accade davvero nei laboratori dove si costruisce il futuro.
+  <br>
+  Scarica <a href="__SITE_URL__/docs/INSIGHT_presentation.pdf" target="_blank">qui</a> il press kit dell'evento!
 
 schedule:
   - day: 26/04
@@ -64,17 +66,11 @@ schedule:
         title: "Nanobrillamenti e riconnessione magnetica: riscaldamento della corona solare"
 
         abstract: |
-
           Il mio contributo riguarda i processi di riscaldamento della corona solare attraverso il meccanismo della riconnessione magnetica. È ormai assodato che eventi energetici e violenti come i brillamenti solari e le eruzioni di massa coronale siano guidati dalla riconnessione magnetica. Si ritiene che gli stessi meccanismi consentano, al contempo, la conversione di energia magnetica in calore, a cascata, dalle grandi fino alle piccole scale, determinando il riscaldamento continuo dell’intera corona solare.
-
           <br>
-
           In particolare, numerosi, elementari ed impulsivi rilasci di energia detti “nanobrillamenti” potrebbero pervadere l’intera corona, sebbene traccia osservativa di tale fenomeno sia ancora difficile da ottenere. Per affrontale tale problema sono fondamentali, da una parte, lo sviluppo di simulazioni numeriche che riproducano la complessità dell’atmosfera solare e dall’altra l’osservazione della corona ad altissima risoluzione spettrale, spaziale e temporale.
-
           <br>
-
           Durante la presentazione mostrerò come lo stato dell’arte della fisica solare stia evolvendo per raggiungere tali obiettivi.
-
         tag: "conf"
 
         id: gabrielecozzo
